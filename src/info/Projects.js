@@ -1,7 +1,8 @@
-import statbadger from '../pictures/statbadger.jpg';
-import weather from '../pictures/weather.png';
-import downtime from '../pictures/downtime.png';
-import budget from '../pictures/budget.png';
+import statbadger from '../Pictures/statbadger.jpg';
+import weather from '../Pictures/weather.png';
+import downtime from '../Pictures/downtime.png';
+import budget from '../Pictures/budget.png';
+import codeQuiz from '../Pictures/code-quiz.png';
 
 const projects = [
     {
@@ -39,6 +40,15 @@ const projects = [
         "techUsed": "Node.js, npm, Javascript, MongoDB Atlas, Express, Mongoose. Compression, Morgan, IndexedDB.",
         "githubLink": "https://github.com/AlCharl88/BudgetTracker",
         "deployedLink": "https://warm-lake-26156.herokuapp.com/"
+    },
+    {
+        "id": 5,
+        "projectName": "Code-Quiz",
+        "picture" : codeQuiz,
+        "summary": "The purpose of this application is to provide a timer-based code quiz on Javascript fondamentals that stores high scores so that the user can gauge its progress compared to its peers..",
+        "techUsed": "Node.js, npm, Javascript, MongoDB Atlas, Express, Mongoose. Compression, Morgan, IndexedDB.",
+        "githubLink": "https://github.com/AlCharl88/Code_Quiz",
+        "deployedLink": "https://alcharl88.github.io/Code_Quiz/"
     }
 
 ]

@@ -1,12 +1,12 @@
-import react from '../pictures/react.png';
+import react from '../Pictures/react.png';
 import mongodb from '../pictures/mongodb.png';
-import mysql from '../pictures/mysql.png';
-import nodejs from '../pictures/nodejs.png';
-import express from '../pictures/express.png';
-import javascript from '../pictures/javascript.png';
-import html from '../pictures/html.png';
-import css from '../pictures/css.png';
-import bootstrap from '../pictures/bootstrap.png';
+import mysql from '../Pictures/mysql.png';
+import nodejs from '../Pictures/nodejs.png';
+import express from '../Pictures/express.png';
+import javascript from '../Pictures/javascript.png';
+import html from '../Pictures/html.png';
+import css from '../Pictures/css.png';
+import bootstrap from '../Pictures/bootstrap.png';
 
 const skills = [
     {
