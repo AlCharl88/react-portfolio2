@@ -1,30 +1,28 @@
 import React from 'react';
-import './App.CSS';
-import Header from './components/Header';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import Index from './components/pages/Index';
-import Work from './components/pages/Work';
-import Contact from './components/pages/Contact';
-import About from './components/pages/About';
+import {Route} from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbar from "./Components/Components/Navbar";
+import { Container } from 'reactstrap';
+import About from './Components/Pages/AboutMe';
+import Projects from './Components/Pages/Projects';
+import Contact from './Components/Pages/Contact';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faEnvelope, faCodeBranch } from '@fortawesome/free-solid-svg-icons'
+// import Footer from "./components/Footer";
 
+library.add(faEnvelope, faCodeBranch);
 
 function App() {
   return (
-    <>
-    <Router basename='/reactportfolio'>
-      <Header />
-      <Switch>
-        <Route path='/' exact component={Index}/>
-        <Route path='/Work' exact component={Work}/>
-        <Route path='/Contact' exact component={Contact}/>
-        <Route path='/About' exact component={About}/>
-      </Switch>
-    </Router>
-    
-  </>
+      <div className="App">
+        <Navbar />
+          <Container>
+            <Route exact path="/" component={About} />
+            <Route path="/projects" component={Projects} />
+            <Route path="/contact" component={Contact} />
+          </Container>
+      </div>
   );
 }
-
-export default App;
 
 export default App;
