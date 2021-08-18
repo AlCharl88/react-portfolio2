@@ -3,11 +3,11 @@ import {
     Card, Button, CardHeader, CardFooter, CardBody,
     CardTitle, CardText, Row, Col, NavLink
 } from 'reactstrap';
-import emailIcon from "../../Pictures/email.jpg";
-import githubIcon from "../../Pictures/github.png";
-import linkedInIcon from "../../Pictures/linkedin.png";
-import headshot from "../../Pictures/alain.jpg";
-import resume from "../../Pictures/ResumeTagne.pdf"
+import emailIcon from "../../Images/email.jpg";
+import githubIcon from "../../Images/github.png";
+import linkedInIcon from "../../Images/linkedin.png";
+import headshot from "../../Images/alain.jpg";
+import resume from "../../Images/ResumeTagne.pdf"
 import "./style.css";
 import MediaQuery, { useMediaQuery } from 'react-responsive';
 
