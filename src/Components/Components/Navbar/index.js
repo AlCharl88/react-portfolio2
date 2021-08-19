@@ -26,7 +26,7 @@ const Navigation = (props) => {
             </NavItem>
             <NavItem>
               <NavLink href="/contact">
-                Contact
+                Contact and Resume
               </NavLink>
             </NavItem>
           </Nav>

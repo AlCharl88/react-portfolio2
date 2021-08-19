@@ -31,7 +31,7 @@ const Contact = (props) => {
                         <CardHeader tag="h3" >
                             <Row>
                                 <Col className="ml-4">
-                                    Alain C. Tagne Kuate
+                                    Alain C. Tagne Kuate (PhD)
                                 </Col>
                                 <Button color="secondary" className="mr-5" href={resume} target="_blank">Resume</Button>
                             </Row>
@@ -40,11 +40,11 @@ const Contact = (props) => {
                             <Row>
                                 <Col xs="5"><img className="headshot shadow bg-white rounded mt-3" src={headshot} alt="Headshot"/></Col>
                                 <Col className="text-Left m-3">
-                                    <CardTitle className="lead text-center font-weight-bold">Senior Research Scientist</CardTitle>
+                                    <CardTitle className="lead text-center font-weight-bold">Senior Research Scientist, Junior Software Developper</CardTitle>
                                     <hr className="m-3" />
-                                    <NavLink href="mailto:alctagne@gmail.com"><img className="logo" src={emailIcon} alt="Logo"/> : Alain C. Tagne Kuate</NavLink>
-                                    <NavLink href="https://www.linkedin.com/in/alain-charly-tagne-kuate-phd-88799a18/"><img className="logo" src={linkedInIcon} alt="Logo"/> : Alain C. Tagne kuate</NavLink>
-                                    <NavLink href="https://github.com/AlCharl88"><img className="logo" src={githubIcon} alt="Logo"/> : AlCharl88</NavLink>                
+                                    <NavLink href="mailto:alctagne@gmail.com" target="_blank"><img className="logo" src={emailIcon} alt="Logo"/> : Alain C. Tagne Kuate</NavLink>
+                                    <NavLink href="https://www.linkedin.com/in/alain-charly-tagne-kuate-phd-88799a18/" target="_blank"><img className="logo" src={linkedInIcon} alt="Logo"/> : Alain C. Tagne kuate</NavLink>
+                                    <NavLink href="https://github.com/AlCharl88" target="_blank"><img className="logo" src={githubIcon} alt="Logo"/> : AlCharl88</NavLink>                
                                 </Col>
                             </Row>
                         </CardBody>
