@@ -3,9 +3,9 @@ import {Route, Switch, BrowserRouter as Router } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from "./Components/Components/Navbar";
 // import { Container } from 'reactstrap';
-import About from './Components/Pages/AboutMe';
-import Projects from './Components/Pages/Projects';
-import Contact from './Components/Pages/Contact';
+import About from './Components/Pages/AboutMe/index';
+import Projects from './Components/Pages/Projects/index';
+import Contact from './Components/Pages/Contact/index';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faEnvelope, faCodeBranch } from '@fortawesome/free-solid-svg-icons'
 // import Footer from "./components/Footer";
