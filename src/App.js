@@ -19,8 +19,8 @@ function App() {
         <Navbar />
           <Container>
             <Route exact path="/" component={About} />
-            <Route path="/projects" component={Projects} />
-            <Route path="/contact" component={Contact} />
+            <Route basename='/react-portfolio2' path="/projects" component={Projects} />
+            <Route basename='/react-portfolio2' path="/contact" component={Contact} />
             </Container>
           </Router>
       </div>
