@@ -14,16 +14,16 @@ library.add(faEnvelope, faCodeBranch);
 
 function App() {
   return (
-      <div className="App">
-        <Router basename='/react-portfolio2/' >
-        <Navbar />
-          <Switch>
-            <Route path="/" exact component={About}/>
-            <Route path="/projects" exact component={Projects}/>
+      <>
+        <Router basename='/react-portfolio2'>
+          <Navbar />
+            <Switch>
+              <Route path="/" exact component={About}/>
+              <Route path="/projects" exact component={Projects}/>
             <Route path="/contact" exact component={Contact}/>
             </Switch>
-          </Router>
-      </div>
+        </Router>
+      </>
   );
 }
 
