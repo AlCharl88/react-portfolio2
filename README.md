@@ -32,7 +32,7 @@ SO THAT I can assess whether they're a good candidate for an open position
 
 ## Application Links
 * [Github](https://github.com/AlCharl88/React-Portfolio)
-* [Live Deployment]()
+* [Live Deployment](https://alcharl88.github.io/react-portfolio2/)
 
 ## Contact 
 
